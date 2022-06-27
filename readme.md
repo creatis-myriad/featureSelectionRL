@@ -1,4 +1,7 @@
-﻿ # Hierarchy reinforcement learning
+﻿
+ Code for the MICCAI2022 paper "Reinforcement learning for active modality selection during diagnosis", available under the license [CeCILL-B](http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.html)
+  
+  # Hierarchy reinforcement learning
    
    This document contains instructions on how to reproduce the results
    of the submitted paper "Reinforcement learning for active modality
@@ -16,13 +19,7 @@
    The principal dependencies are the scikit-learn and numpy libraries, and dash and matplotlib for visualisation.
    
    ## Data
-   We use the public Heart Disease dataset (including the different centers), a copy of which can be found in our data folder.
-   The data can be also found in https://archive.ics.uci.edu/ml/datasets/heart+disease.
-   
-   For the private hypertense dataset, we don't have the right to publicly share
-   the raw images / traces, but we include the PCA scores of the
-   processed data, which are enough for reproducing all the figures
-   except Figure 4. 
+   We use the public Heart Disease dataset (including the different centers), available at the UCI dataset
    
    ## Hardware environment and computational footprint:
    
