@@ -14,7 +14,8 @@
    To install a conda environment to reproduce the experiments or try the framework with new data, use the following instructions:
    ```
  conda create -n hierarchyRL --file requirements.txt 
- conda activate hierarchyRL pip install -e .
+ conda activate hierarchyRL 
+ pip install -e .
  ``` 
    The principal dependencies are the scikit-learn and numpy libraries, and dash and matplotlib for visualisation.
    
